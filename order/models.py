@@ -9,7 +9,7 @@ from account.send_email import send_notification
 User = get_user_model()
 
 STATUS_CHOICES = (
-    ('oper', 'Открыт'),
+    ('open', 'Открыт'),
     ('in_process', 'В обработке'),
     ('closed', 'Закрыт')
 )
